@@ -1,5 +1,5 @@
 import React from 'react'
-import'./Card.css';
+import './Card.css';
 
 const PromotionCard = ({ promotion }) => (
     <div className="promotion-card">
@@ -19,7 +19,7 @@ const PromotionCard = ({ promotion }) => (
                 <a href={promotion.url} target="_blank" rel="noopener noreferrer" className="promotion-card__link">IR PARA O SITE</a>
             </footer>
         </div>
-    </div>
+    </div >
 );
 
 export default PromotionCard;
